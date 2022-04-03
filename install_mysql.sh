@@ -1,0 +1,3 @@
+#!/bin/bash
+apt-get install libaio1 libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7 libevent-pthreads-2.1-7 libfcgi-perl libhtml-template-perl libmecab2 mecab-ipadic mecab-ipadic-utf8 mecab-utils mysql-client-8.0 mysql-client-core-8.0 mysql-server-8.0 mysql-server-core-8.0 libipc-sharedcache-perl mailutils tinyca libaio1 libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7
+apt-get install libevent-pthreads-2.1-7 libfcgi-perl libhtml-template-perl libmecab2 mecab-ipadic mecab-ipadic-utf8 mecab-utils mysql-client-8.0 mysql-client-core-8.0 mysql-server mysql-server-8.0 mysql-server-core-8.0
