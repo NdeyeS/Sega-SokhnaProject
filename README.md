@@ -4,6 +4,7 @@
 	-- Fixation des adresses IP grâce à netplan ( /etc/netplan/)
 	-- Machine serveur: installation des paquets bind9 pour le DNS et isc-dhcp-server pour le DHCP
 	-- Machine Kali linux : installation du paquet ufw
+	-- Scripts python : client1.py, database.py, server.py
 ![image](https://user-images.githubusercontent.com/99363547/161441647-3c5c3f20-3b9a-4823-9047-e8a52232b1bf.png)
 
 	1)Partie 01
