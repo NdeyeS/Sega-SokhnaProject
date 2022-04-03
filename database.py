@@ -16,7 +16,7 @@ def ConnectDB():
         print("Base de données connectee")
         return con
 
-    except database.Error as e:
+    except db.Error as e:
         print(f"Erreur lors de la connexion : {e}")
         return False
         sys.exit(1)
@@ -32,7 +32,7 @@ def Account(Liste: list):
              print("Mail deja present")
         else:
             print("Donnees inserees avec succes")
-    except database.Error as e:
+    except db.Error as e:
         print(f"Erreur lors de l'insertion:{e}")
 
 
@@ -42,5 +42,5 @@ def Login(Liste:list)-> list:
         con = ConnectDB()
         cur = con.cursor()
         cur.execute("SELECT * from user where mail = '{Liste[2]}' AND password = '{Liste[3]}'")
-    except database.Error as e:
+    except db.Error as e:
         print("Indentifiants Invalides")
