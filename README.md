@@ -63,5 +63,13 @@
 	
 	
 ------------------------------------------------------------------------------------------------------------------------------------------------------------		
-    
+ 	Partie 02
+	database.py : ce script comprend trois fonctions
+	ConnDB() : qui permet à l’utilisateur root de se connecter à la base de données
+	Account(Liste : list) : qui permet au client de créer un compte
+	Login(Liste : list) : qui permet au client de saisir ses identifiants et de se connecter
+	Pour l’exécuter il suffit de faire python3 database.py
+	serveur.py : ce script permet au serveur d’envoyer une interface de console de création de compte et de connexion. Pour l’exécuter il suffit de faire 	python3 serveur.py
+	client.py : ce script permet au client de créer un compte ou de se connecter. Pour l’exécuter il suffit de faire python3 client.py
+	Il faut mettre l’ensemble de ces scripts dans un même dossier pour que l’exécution soit plus facile
 
