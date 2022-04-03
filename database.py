@@ -26,7 +26,7 @@ def Account(Liste: list):
     try:
         con = ConnectDB()
         cur = con.cursor()
-        cur.executemany("INSERT INTO user VALUES(?,?,?,?)",Liste)
+        cur.executemany("INSERT INTO user VALUES('Liste[0]','Liste[1]','Liste[2]','Liste[3]')")
         con.commit()
         if (Liste[2]in(cur.execute("SELECT mail FROM user"))):
              print("Mail deja present")
